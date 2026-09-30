@@ -1,0 +1,23 @@
+@media (prefers-color-scheme: light) {
+	body.theme-test-theme {
+	background-color: rgb(33, 146, 166);
+	color: rgb(235, 180, 39);
+}
+}
+
+@media (prefers-color-scheme: dark) {
+	body.theme-test-theme {
+	background-color: rgb(10, 64, 73);
+	color: rgb(117, 95, 42);
+}
+}
+
+body.theme-test-theme.light {
+	background-color: rgb(33, 146, 166);
+	color: rgb(235, 180, 39);
+}
+
+body.theme-test-theme.dark {
+	background-color: rgb(10, 64, 73);
+	color: rgb(117, 95, 42);
+}

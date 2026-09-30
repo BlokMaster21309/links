@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" href="/images/gear.svg"/>
+		<link rel="stylesheet" href="/styles/default.css"/> <!--Default styling (layout only)-->
+		<title>M.N.S - Settings </title>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="links.nolan.schule/settings" />
+		<meta property="og:site_name" content="Links.Nolan.Schule" />
+		<meta property="og:title" content="Settings" />
+		<meta property="og:description" content="Configure your experience on our site." />
+		<meta property="og:image" content="links.nolan.schule/images/gear.svg" />
+		<meta property="og:locale" content="en_US"/>
+		<script src="/scripts/settings.js"></script>
+		<script src="/scripts/s.js"></script>
+	</head>
+	<body>
+		<h1>Settings</h1>
+		<div id="appearence">
+			<h2>Appearance</h2>
+			<div id="theme-seleciton">
+				<h3>Select A Theme</h3>
+				<p>"None" uses only /styles/default.css, others require js to load and apply /theme/{id}.</p>
+				<select id="themes">
+					<option value="">None</option>
+					<option value="solarized">Solarized</option>
+					<option value="nocturn">Nocturn</option>
+					<option value="test-theme">Test</option>
+				</select>
+			</div>
+			<div id="scheme-selection">
+				<h3>Override Scheme</h3>
+				<p>"None" uses browser default color scheme, others require js to add "dark" or "light" class to body.</p>
+				<select id="schemes">
+					<option value="">None</option>
+					<option value="dark">Dark</option>
+					<option value="light">Light</option>
+				</select>
+			</div>
+		</div>
+	</body>
+</html>
