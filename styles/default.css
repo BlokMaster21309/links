@@ -1,8 +1,16 @@
+section {
+	position: relative;
+	left: 1em;
+}
+
 body.dark {
 	background-color: black;
 	color: white;
 }
-div {
-	position: relative;
-	left: 1em;
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+		color: white;
+	}
 }
