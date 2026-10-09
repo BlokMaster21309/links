@@ -2,10 +2,10 @@
 <svg
 	fill="url(#linear-gradient-1)"
 	width="1081"
-	height="874.03"
+	height="1081"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns="http://www.w3.org/2000/svg">
-	<defs>
+	<defs><!-- normal height 874.03-->
 	<linearGradient
 		id="linear-gradient"
 		gradientUnits="userSpaceOnUse">
